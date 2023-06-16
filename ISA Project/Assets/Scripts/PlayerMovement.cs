@@ -115,4 +115,12 @@ public class PlayerMovement : MonoBehaviour
     {
         readyToJump = true;
     }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.transform.tag == "Obstacle")
+        {
+            PlayerManager.gameOver = true;
+        }
+    }
 }
