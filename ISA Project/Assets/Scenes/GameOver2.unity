@@ -352,6 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 882926334}
   - component: {fileID: 882926335}
+  - component: {fileID: 882926336}
   m_Layer: 5
   m_Name: ReplayMenu
   m_TagString: Untagged
@@ -392,6 +393,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa1ef9a2706340b4c8e0ccc6139d721a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &882926336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882926333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b9b7d248617b74e8dccc5a302b0243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &884659802
@@ -478,8 +491,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 882926335}
-        m_TargetAssemblyTypeName: ReplayButton, Assembly-CSharp
+      - m_Target: {fileID: 882926336}
+        m_TargetAssemblyTypeName: ReplayButton2, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -612,8 +625,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 882926335}
-        m_TargetAssemblyTypeName: ReplayButton, Assembly-CSharp
+      - m_Target: {fileID: 882926336}
+        m_TargetAssemblyTypeName: ReplayButton2, Assembly-CSharp
         m_MethodName: ReplayGame
         m_Mode: 1
         m_Arguments:
