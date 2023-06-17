@@ -8,7 +8,7 @@ public class ReplayButton : MonoBehaviour
     
     public void ReplayGame()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Level 1");
     }
 
     public void QuitGame()
