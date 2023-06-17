@@ -7,16 +7,16 @@ public class PauseAudio : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(gameObject);
-        if (gameObject != null)
-        {
-            BGSound.Instance.gameObject.GetComponent<AudioSource>().Pause();
-        }
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(gameObject);
+        if (gameObject.tag == "Music")
+        {
+            BGSound.Instance.gameObject.GetComponent<AudioSource>().Pause();
+        }
     }
 }

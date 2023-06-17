@@ -538,13 +538,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116487034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.000015258789, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121255502
 GameObject:
@@ -1546,6 +1546,12 @@ MonoBehaviour:
   - anxious to eat,
   - trying to find ways to escape.
   - These are all symptoms of social anxiety.
+  - But don't worry.
+  - Sometimes not saying anything is fine too.
+  - And admitting you're nervous can also help.
+  - Maybe the other person is also struggling with social anxiety.
+  - Just relax and try to enjoy your meal.
+  - You are in a safe space.
   textSpeed: 0.05
 --- !u!1001 &407515171
 PrefabInstance:
@@ -2989,7 +2995,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &827500191
 GameObject:
@@ -3301,7 +3307,7 @@ RectTransform:
   m_Children:
   - {fileID: 322588130}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4408,7 +4414,7 @@ RectTransform:
   m_Children:
   - {fileID: 51792426}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5216,7 +5222,7 @@ Transform:
   - {fileID: 1189877092}
   - {fileID: 518870308}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1657653276
 GameObject:
@@ -5343,7 +5349,7 @@ Transform:
   - {fileID: 744894898}
   - {fileID: 131108773}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &1714853134
 PrefabInstance:
