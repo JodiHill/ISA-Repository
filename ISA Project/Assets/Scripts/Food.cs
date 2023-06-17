@@ -7,6 +7,6 @@ public class Food : MonoBehaviour
 {
     private void OnMouseUpAsButton()
     {
-        SceneManager.LoadScene("ISA2");
+        SceneManager.LoadScene("ISA3");
     }
 }
