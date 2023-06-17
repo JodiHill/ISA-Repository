@@ -155,6 +155,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameOver1:
     m_Handle: 0
+--- !u!1 &129683205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 497377808127916656, guid: dbbbf2e8c37b9f6409c8025725d997ac, type: 3}
+  m_PrefabInstance: {fileID: 238807293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &129683210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129683205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed7b205bd7f2ec408467b363d666a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOver1:
+    m_Handle: 0
 --- !u!1 &149751471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1218676989693939668, guid: c4140f1e521e4f246ad7869f47a400cf, type: 3}
@@ -317,6 +336,22 @@ PrefabInstance:
     - target: {fileID: 497377808127916656, guid: dbbbf2e8c37b9f6409c8025725d997ac, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 497377808127916657, guid: dbbbf2e8c37b9f6409c8025725d997ac, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497377808127916660, guid: dbbbf2e8c37b9f6409c8025725d997ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9392
+      objectReference: {fileID: 0}
+    - target: {fileID: 497377808127916660, guid: dbbbf2e8c37b9f6409c8025725d997ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 27.67697
+      objectReference: {fileID: 0}
+    - target: {fileID: 497377808127916660, guid: dbbbf2e8c37b9f6409c8025725d997ac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 136.50156
       objectReference: {fileID: 0}
     - target: {fileID: 497377808127916662, guid: dbbbf2e8c37b9f6409c8025725d997ac, type: 3}
       propertyPath: m_Enabled
@@ -1057,6 +1092,9 @@ MonoBehaviour:
   - 'Welcome to the first level: Phone Anxiety'
   - A phone call can be nerve-racking
   - So our first instinct is to avoid them
+  - But sooner or later we will have to answer that phone call.
+  - Avoiding means postponing the issue,
+  - but it's much better to face it and get it over with.
   textSpeed: 0.05
 --- !u!1 &898183432 stripped
 GameObject:
@@ -1345,8 +1383,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.1
-  m_fontSizeBase: 38.1
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

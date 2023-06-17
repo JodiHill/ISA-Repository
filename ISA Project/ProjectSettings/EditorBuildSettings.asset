@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ISA1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/ISA2.unity
+    guid: 533f42ded7d5d6d448f51783696bf52e
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: d71882a10a78ecd46a9d62bb387d84d2
   - enabled: 1

@@ -13,7 +13,7 @@ public class ReplayButton : MonoBehaviour
 
     public void QuitGame()
     {
-        SceneManager.LoadScene("ISA1");
+        SceneManager.LoadScene("ISA2");
     }
 
 
